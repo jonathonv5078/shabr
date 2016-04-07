@@ -1,0 +1,64 @@
+html,
+  body {
+    height: 100%;
+  }
+  
+  .full-w {
+    width: 100%;
+  }
+  
+  .full-h {
+    height: 100%;
+  }
+  
+  .vert-center {
+    display: table-cell;
+    vertical-align: middle;
+    font: italic bold 35px/30px Georgia, serif;
+  }
+  
+  .section {
+    padding: 60px 0;
+  }
+  
+  #fs1 {
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://farm4.staticflickr.com/3802/19805857424_c202d68150_o_d.png') no-repeat center;
+    background-size: cover;
+    background-color:red ;
+    display: table;
+  }
+  
+  #section1 {
+    background-color:yellow;
+  }
+  
+  #fs2 {
+    /* For width smaller than 400px: */
+    background-repeat: no-repeat;
+    background-image: url('hot-air-balloon-clipart.png');
+    background-color: white;
+    
+  }
+  #info {
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('hot_air_balloon.jpg') no-repeat center fixed;
+    background-size:cover;
+}
+   .affix {
+      top: 0;
+      width: 100%;
+  }
+
+  .affix + .container-fluid {
+      padding-top: 70px;
+  }
+  
+  body {
+    color: black;
+  }
+  
+  @media only screen and (max-width:758px) {
+    h1 {
+      font-size: 50px;
+    }
+  }
+
