@@ -1,0 +1,79 @@
+html,
+  body {
+    height: 100%;
+  }
+  
+  .full-w {
+    width: 100%;
+  }
+  
+  .full-h {
+    height: 100%;
+  }
+  
+  .vert-center {
+    display: table-cell;
+    vertical-align: middle;
+    font: italic bold 35px/30px Georgia, serif;
+  }
+  
+  .section {
+    padding: 60px 0;
+  }
+  
+  #title {
+    background: linear-gradient( rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url('img/Orlando-Hot-Air-Balloon.jpg') no-repeat center;
+    background-size: cover;
+ 
+  }
+  
+  #section1 {
+    background-color:yellow;
+  }
+  
+  #fs2 {
+    /* For width smaller than 400px: */
+    background-repeat: no-repeat;
+    background-image: url('hot-air-balloon-clipart.png');
+    background-color: white;
+    
+  }
+ 
+blockquote {
+    background-color:blue;
+    color: #ffdfb5;
+    border-left: 5px solid #ffd1243;
+}
+
+.blockquote-reverse {
+    background-color: #4d582a;
+    border-right: 5px solid #ffdfb5;
+}
+
+blockquote footer {
+    color: #ffdfb5;
+}
+
+  #info {
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('img/hot_air_balloon.jpg') no-repeat center fixed;
+    background-size:cover;
+}
+   .affix {
+      top: 0;
+      width: 100%;
+  }
+
+  .affix + .container-fluid {
+      padding-top: 70px;
+  }
+  
+  body {
+    color: black;
+  }
+  
+  @media only screen and (max-width:758px) {
+    h1 {
+      font-size: 60px;
+    }
+  }
+
