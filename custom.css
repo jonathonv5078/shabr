@@ -39,23 +39,13 @@ html,
     
   }
  
-blockquote {
+#information{
     background-color:blue;
     color: #ffdfb5;
     border-left: 5px solid #ffd1243;
 }
-
-.blockquote-reverse {
-    background-color: #4d582a;
-    border-right: 5px solid #ffdfb5;
-}
-
-blockquote footer {
-    color: #ffdfb5;
-}
-
-  #info {
-    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('img/hot_air_balloon.jpg') no-repeat center fixed;
+ #testimonials {
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('img/ontario-hot-air-balloon.png') no-repeat center fixed;
     background-size:cover;
 }
    .affix {
